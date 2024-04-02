@@ -1,6 +1,5 @@
 <template>
-  <div class="">
-    <p class="text-decoration-underline">This text has a line underneath it.</p>
-
+  <div class="d-flex justify-content-center" style="margin-top: 150px;">
+    <Hero />
   </div>
 </template>
