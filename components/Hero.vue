@@ -32,13 +32,10 @@ const icons = [
           We provide what you need to enjoy your holiday with family. Time to
           make another memorable moments.
         </p>
-        <button class="btn btn-primary mt-1">Show Me Now</button>
-        <div class="d-flex">
-          <div
-            class="mt-5"
-            style="height: 69px; margin-right: 40px"
-            v-for="item in icons"
-          >
+        <button class="btn btn-primary mt-4 btn-shadow">Show Me Now</button>
+        <!-- Icons -->
+        <div class="d-flex" style="margin-top: 80px">
+          <div style="height: 69px; margin-right: 40px" v-for="item in icons">
             <img
               :src="`/${item.img}`"
               alt=""
@@ -50,12 +47,17 @@ const icons = [
             </p>
           </div>
         </div>
+        <!-- End Icons -->
       </div>
       <div class="col">
-        <img style="height: 450px; width: 559px;" src="/hero.jpg" alt="" />
+        <img style="height: 450px; width: 559px" src="/hero.jpg" alt="" />
       </div>
     </div>
   </div>
 </template>
 
-<style></style>
+<style scoped>
+.btn-shadow {
+  box-shadow: 0px 8px 15px 0px #3252df4d;
+}
+</style>

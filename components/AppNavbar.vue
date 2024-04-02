@@ -9,9 +9,7 @@ const navbar = [
 <template>
   <nav class="navbar navbar-expand-lg mt-1 border-bottom" style="height: 80px">
     <div class="d-flex flex-grow-1">
-      <a class="navbar-brand d-none d-lg-inline-block fs-4" href="#">
-        Staycation.
-      </a>
+      <img src="/logo.svg" alt="">
     </div>
     <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
       <ul class="navbar-nav ms-auto flex-nowrap">
