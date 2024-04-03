@@ -19,7 +19,7 @@ const icons = [
 </script>
 
 <template>
-  <div class="" style="width: 1140px; height: 458px">
+  <div class="" style="height: 458px">
     <div class="row">
       <div class="col">
         <h1
